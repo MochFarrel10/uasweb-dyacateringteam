@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Balsamiq;
+    src: url("asset/font/BalsamiqSans-Regular.ttf");
+}
+
+body {
+    background-color:#1b262c;
+    color: white;
+}
+
+#titleHead {
+    font-family: Balsamiq;
+}
+
+.jumbotron {
+    background-image: linear-gradient( #00000090,#000000c4), url("/asset/images/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    background-position:center ;
+    padding-top: 15rem;
+    width: 100%;
+}
+
+#tabmenu img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#tabmenu {
+    height: 100vh;
+    padding-top: 13rem;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.card {
+    background-color: rgb(43, 43, 43);
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+#lightMode {
+    background-color: aliceblue;
+    color: black;
+}
+
+#lightMode .jumbotron {
+    background-image: linear-gradient( #cecece46,#c0c0c02c), url("/asset/images/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    background-position:center ;
+    padding-top: 15rem;
+    width: 100%;
+}
+
+#lightMode .card {
+    background-color: cornsilk;
+    color: black;
+}
+
+#lightMode #check {
+    color: black;
+    border-color: black;
+}
+
+#gmr{
+    width: 34rem;
+}
+
